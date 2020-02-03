@@ -1,0 +1,23 @@
+
+        "workbench.colorTheme": "Zenburn",
+        
+        "editor.cursorBlinking": "smooth",
+        "editor.cursorWidth": 3,
+        
+        // Editor colors
+        "editor.tokenColorCustomizations": {
+            // Zen Burn
+            "[Zenburn]": {
+                "numbers": "#f1f1f1",
+                "textMateRules": [
+                    { "scope": "constant.language.boolean.true.cs", "settings": { "foreground": "#a6e65d", "fontStyle": "italic" } },
+                    { "scope": "constant.language.boolean.false.cs", "settings": { "foreground": "#eb5252", "fontStyle": "italic" } },
+                    {
+                        "scope": "keyword.other.class.cs, keyword.other.namespace.cs, keyword.other.enum.cs, keyword.other.struct.cs",
+                        "settings": { "foreground": "#a5cf57" }
+                    },
+                    { "scope": "keyword.other.new.cs", "settings": { "foreground": "#7aaf48" } },
+                    { "scope": "keyword.type.cs", "settings": { "foreground": "#7ce44c" } }
+                ]
+            }
+        },
